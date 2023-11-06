@@ -34,6 +34,8 @@ pageClass: device-page
 
 * `invert_cover`: Inverts the cover position, false: open=100,close=0, true: open=0,close=100 (default false). The value must be `true` or `false`
 
+## Pairing
+To set the device into pairing mode, click the button on the motor 3 times. The motor will do a short shake to comfirm pairing mode.
 
 ## Exposes
 
@@ -50,3 +52,5 @@ It's not possible to read (`/get`) or write (`/set`) this value.
 The minimal value is `0` and the maximum value is `255`.
 The unit of this value is `lqi`.
 
+## Setting the Limits
+Please see the following post: https://community.home-assistant.io/t/zemismart-zm25-zigbee-howto-tubular-roller-blind-shade-cover-motor/474992/16
